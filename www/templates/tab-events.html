@@ -1,11 +1,10 @@
 <ion-view title="Eedan Karya">
   <ion-content>
     <ion-list>
-      <ion-item ng-repeat="event in events" type="item-text-wrap" href="#/tab/event/{{event.id}}">
-          <h2><strong>{{event.tanggal}}</strong></h2>
-          <p><i class="icon ion-ios7-calendar-outline"></i> {{event.rahina}}, <i class="icon ion-ios7-time-outline"></i> {{event.subevents[0].galah}}
-          </p>
-          <p ng-if="event.tags"><button class="button button-small button-outline button-assertive" ng-repeat="tag in event.tags" style="margin-right:5px;">{{ tag }}</button></p>
+      <ion-item class="item-text-wrap" ng-repeat="event in events" type="item-text-wrap" href="#/tab/event/{{event.id}}" is-past-event tanggal="event.tanggal">
+          <h2 class="item-icon-right"><strong>{{event.tanggal}}</strong> <i class="icon ion-ios7-arrow-right"></i></h2>
+          <p><i class="icon ion-ios7-calendar-outline"></i> {{event.rahina}}, <i class="icon ion-ios7-time-outline"></i> {{event.subevents[0].galah}}</p>
+          <p ng-if="event.tags"><button class="button button-small button-outline button-assertive tag" ng-repeat="tag in event.tags" style="margin-right:5px;">{{ tag }}</button></p>
       </ion-item>
     </ion-list>
   </ion-content>

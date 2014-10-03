@@ -1,1 +1,10 @@
-/* Empty. Add your own CSS if you like */
+.is-past *,
+.is-past p,
+.is-past p button.tag.button-outline.button-assertive { color: #aaa; }
+.is-past p button.tag.button-outline.button-assertive { border:1px solid #aaa; }
+
+.is-today *,
+.is-today p,
+.is-today p button.tag.button-outline.button-assertive { color: green; }
+.is-today p button.tag.button-outline.button-assertive { border:1px solid green; }
+

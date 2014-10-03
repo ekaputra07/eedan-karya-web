@@ -1,4 +1,4 @@
-angular.module('starter.services', [])
+angular.module('eedankarya.services', [])
 
 /**
  * A simple example service that returns some data.
@@ -72,7 +72,7 @@ angular.module('starter.services', [])
     {
       id: 5,
       rahina: 'Redite Kliwon Tulu',
-      tanggal: '2 Nopember 2014',
+      tanggal: '2 November 2014',
       subevents: [
         {
           galah: '09.00 Wita',
@@ -94,7 +94,7 @@ angular.module('starter.services', [])
     {
       id: 6,
       rahina: 'Soma Umanis Tulu',
-      tanggal: '3 Nopember 2014',
+      tanggal: '3 November 2014',
       subevents: [
         {
           galah: '09.00 Wita',
@@ -116,7 +116,7 @@ angular.module('starter.services', [])
     {
       id: 7,
       rahina: 'Sukra Paing Gumbreg',
-      tanggal: '14 Nopember 2014',
+      tanggal: '14 November 2014',
       subevents: [
         {
           galah: '10.00 Wita',
@@ -131,7 +131,7 @@ angular.module('starter.services', [])
     {
       id: 8,
       rahina: 'Wrespati Pon Wariga',
-      tanggal: '20 Nopember 2014',
+      tanggal: '20 November 2014',
       subevents: [
         {
           galah: '09.00 Wita',
@@ -146,7 +146,7 @@ angular.module('starter.services', [])
     {
       id: 9,
       rahina: 'Sukra Wage Wariga',
-      tanggal: '21 Nopember 2014',
+      tanggal: '21 November 2014',
       subevents: [
         {
           galah: '08.00 Wita',
@@ -176,7 +176,7 @@ angular.module('starter.services', [])
     {
       id: 10,
       rahina: 'Soma Paing Warigadean',
-      tanggal: '24 Nopember 2014',
+      tanggal: '24 November 2014',
       subevents: [
         {
           galah: '10.00 Wita',
@@ -416,6 +416,204 @@ angular.module('starter.services', [])
       ],
       pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Desa sami',
       tags: ['Puncak Karya']
+    },
+    {
+      id: 21,
+      rahina: 'Buda Umanis Medangsia',
+      tanggal: '7 Januari 2015',
+      subevents: [
+        {
+          galah: '13.00 Wita',
+          pemargi: ['Penganyaran ring Prajapati Baleran', 'Penganyaran ring Prajapati Delodan'],
+          sane_muput: ['Pemangku Pura Puseh, Juga', 'Pemangku Pura Puseh, Kawan'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan'],
+          wewalian: ['Angklung jangkep'],
+        },
+        {
+          galah: '15.00 Wita',
+          pemargi: ['Penganyaran ring Pura Dalem Juga'],
+          sane_muput: ['Ida Peranda Griya Gede Kemenuh'],
+          genah: ['Pura Dalem Juga'],
+          wewalian: ['Topeng Sidakarya', 'Gong Jangkep'],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga',
+      tags: [' Nganyaran']
+    },
+    {
+      id: 22,
+      rahina: 'Wrespati Paing Medangsia',
+      tanggal: '8 Januari 2015',
+      subevents: [
+        {
+          galah: '13.00 Wita',
+          pemargi: ['Penganyaran ring Prajapati Baleran', 'Penganyaran ring Prajapati Delodan'],
+          sane_muput: ['Pemangku Pura Bukit Danginan ', 'Pemangku Pura Bukit Dauhan'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan'],
+          wewalian: ['Angklung jangkep'],
+        },
+        {
+          galah: '15.00 Wita',
+          pemargi: ['Nganyaran, Ngideran Dangsil ring Pura Dalem Juga'],
+          sane_muput: ['Ida Peranda Dwija Kenaka, Griya Gde Mas'],
+          genah: ['Pura Dalem Juga'],
+          wewalian: ['Topeng Sidakarya', 'Gong Jangkep'],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga',
+      tags: ['Nganyaran', 'Ngideran Dangsil']
+    },
+    {
+      id: 23,
+      rahina: 'Sukra Pon Medangsia',
+      tanggal: '9 Januari 2015',
+      subevents: [
+        {
+          galah: '13.00 Wita',
+          pemargi: ['Nyenukin'],
+          sane_muput: ['Ida Peranda Griya Gede Kemenuh'],
+          genah: ['Pura Desa'],
+          wewalian: ['Topeng Sidakarya', 'Gong Jangkep'],
+        },
+        {
+          galah: '15.00 Wita',
+          pemargi: ['Penganyaran ring Prajapati Baleran lan Delodan'],
+          sane_muput: ['Pemangku Pura Anyar, Alitan', 'Pemangku Pura Anyar, Lingsir'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan'],
+          wewalian: ['Angklung jangkep'],
+        },
+        {
+          galah: '16.00 Wita',
+          pemargi: ['Nganyaran, Ngebek ring Pura Dalem Juga'],
+          sane_muput: ['Ida Peranda Griya Wanasari Kemenuh', 'Ida Peranda Budha Istri. Griya Gde Batuan'],
+          genah: ['Pura Dalem Juga'],
+          wewalian: ['Topeng Sidakarya (Ida Bagus Kt Adnyana, Ida Bagus Nyoman Sutara)', 'Gong Jangkep'],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga.',
+      tags: ['Nyenukin', 'Nganyarin Ngebek']
+    },
+    {
+      id: 24,
+      rahina: 'Saniscara Wage Medangsia',
+      tanggal: '10 Januari 2015',
+      subevents: [
+        {
+          galah: '09.00 Wita',
+          pemargi: ['Penganyaran ring Prajapati Baleran lan Delodan'],
+          sane_muput: ['Pemangku Pura Sakenan', 'Pemangku Pura Kaseh'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan'],
+          wewalian: ['Angklung jangkep'],
+        },
+        {
+          galah: '10.00 Wita',
+          pemargi: ['Penganyaran, Ida Bethara Budal'],
+          sane_muput: ['Ida Peranda Griya Wanasari Kemenuh'],
+          genah: ['Pura Dalem Juga'],
+          wewalian: ['Topeng Sidakarya', 'Gong Jangkep'],
+        },
+        {
+          galah: '15.00 Wita',
+          pemargi: ['Ida Bethara Pangrajeg budal'],
+          sane_muput: ['Ida Peranda Griya Agung, Bitera'],
+          genah: ['Pura Taman Pule'],
+          wewalian: ['Gong Tabuh Lanang', 'Topeng Sidakarya'],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga.',
+      tags: ['Nganyaran', 'Ida Bethara Budal']
+    },
+    {
+      id: 25,
+      rahina: 'Redite Kliwon Pujut',
+      tanggal: '11 Januari 2015',
+      subevents: [
+        {
+          galah: '13.00 Wita',
+          pemargi: ['Penganyaran ring Prajapati Baleran lan Delodan'],
+          sane_muput: ['Pemangku Pura Tandruh', 'Pemangku Pura Pasek'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan'],
+          wewalian: ['Angklung jangkep'],
+        },
+        {
+          galah: '15.00 Wita',
+          pemargi: ['Nganyaran ring Pura Dalem Juga'],
+          sane_muput: ['Ida Peranda Griya Agung, Bitera'],
+          genah: ['Pura Dalem Juga'],
+          wewalian: ['Topeng Sidakarya', 'Gong Jangkep'],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga.',
+      tags: ['Nganyaran']
+    },
+    {
+      id: 26,
+      rahina: 'Soma Umanis Pujut',
+      tanggal: '12 Januari 2015',
+      subevents: [
+        {
+          galah: '09.00 Wita',
+          pemargi: ['Penganyaran ring Prajapati Baleran lan Delodan'],
+          sane_muput: ['Pemangku Pura Dalem Panglan', 'Pemangku Pura Megalan'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan'],
+          wewalian: ['Angklung jangkep'],
+        },
+        {
+          galah: '10.00 Wita',
+          pemargi: ['Nganyaran, Ngremekin, Rsi Bojana'],
+          sane_muput: ['Ida Peranda Griya Wanasari Kemenuh'],
+          genah: ['Pura Dalem Juga'],
+          wewalian: ['Topeng Sidakarya', 'Gong Jangkep'],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga.',
+      tags: ['Nganyaran', 'Gremekin', 'Rsi Bojana']
+    },
+    {
+      id: 27,
+      rahina: 'Anggara Paing Pujut',
+      tanggal: '13 Januari 2015',
+      subevents: [
+        {
+          galah: '09.00 Wita',
+          pemargi: ['Nyegara Gunung'],
+          sane_muput: ['Ida Peranda Grya Gede Banjarangkan, Klungkung'],
+          genah: ['Pura Goa Lawah'],
+          wewalian: ['Gong Tabuh Lanang'],
+        },
+        {
+          galah: '14.00 Wita',
+          pemargi: ['Penganyaran ring Prajapati Baleran lan Delodan'],
+          sane_muput: ['Pemangku Pura Ponambenan', 'Pemangku Pura Melanting'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan'],
+          wewalian: ['Angklung jangkep'],
+        },
+        {
+          galah: '16.00 Wita',
+          pemargi: ['Nganyaran, Nuwek Bagia, Nyineb'],
+          sane_muput: ['Ida Peranda Griya Wanasari Kemenuh'],
+          genah: ['Pura Dalem Juga'],
+          wewalian: ['Topeng Sidakarya', 'Gong Jangkep'],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga.',
+      tags: ['Nyegara Gunung', 'Nganyarin', 'Nyineb']
+    },
+    {
+      id: 28,
+      rahina: 'Buda Pon Pujut',
+      tanggal: '14 Januari 2015',
+      subevents: [
+        {
+          galah: '09.00 Wita',
+          pemargi: ['Aci Penyineba ring Prajapati Baleran lan Delodan', 'Aci Penyineba ring Pura Dalem Juga'],
+          sane_muput: ['Pemangku Pura Puseh, Kawan', 'Pemangku Pura Desa', 'Pemangku Pura Dalem Juga'],
+          genah: ['Mrajapati Baleran', 'Mrajapati Delodan', 'Pura Dalem Juga'],
+          wewalian: [],
+        }
+      ],
+      pakeling: 'Tedun: Pemangku sami Lanang, istri, Prawartaka Karya, Krama Banjar Juga matebasan.',
+      tags: ['Aci Panyineban']
     },
   ];
 

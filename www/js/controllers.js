@@ -1,6 +1,6 @@
-angular.module('starter.controllers', [])
+angular.module('eedankarya.controllers', [])
 
-.controller('DashCtrl', function($scope) {
+.controller('AboutCtrl', function($scope) {
 })
 
 .controller('EventsCtrl', function($scope, Events) {
