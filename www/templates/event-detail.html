@@ -1,0 +1,50 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view title="{{event.tanggal}}">
+  <ion-content has-header="true" padding="true">
+    <div class="list">
+        <a class="item">
+          <h2><strong>{{event.rahina}}</strong></h2>
+          <p><i class="icon ion-ios7-calendar-outline"></i> {{event.tanggal}}</p>
+        </a>
+
+        <div ng-repeat="evt in event.subevents">
+            <div class="item item-divider">
+            <i class="icon ion-ios7-time-outline"></i> {{ evt.galah }}
+            </div>
+
+            <a class="item item-text-wrap" ng-if="evt.genah">
+            <h2><strong>Genah:</strong></h2>
+            <div ng-repeat="g in evt.genah">- {{ g }}</div>
+            </a>
+
+            <a class="item item-text-wrap" ng-if="evt.pemargi">
+            <h2><strong>Eedan Pemargi:</strong></h2>
+            <div ng-repeat="p in evt.pemargi">- {{ p }}</div>
+            </a>
+
+            <a class="item item-text-wrap" ng-if="evt.sane_muput">
+            <h2><strong>Sane Muput:</strong></h2>
+            <div ng-repeat="m in evt.sane_muput">- {{ m }}</div>
+            </a>
+
+            <a class="item item-text-wrap" ng-if="evt.wewalian">
+            <h2><strong>Wewalian:</strong></h2>
+            <div ng-repeat="w in evt.wewalian">- {{ w }}</div>
+            </a>
+        </div>
+
+        <div ng-if="event.pakeling">
+            <div class="item item-divider">Pakeling</div>
+            <a class="item item-text-wrap">
+            <p>{{ event.pakeling }}</p>
+            </a>
+        </div>
+
+    </div>
+  </ion-content>
+</ion-view>
