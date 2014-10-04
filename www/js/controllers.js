@@ -4,9 +4,11 @@ angular.module('eedankarya.controllers', [])
 })
 
 .controller('EventsCtrl', function($scope, Events) {
-  $scope.events = Events.all();
+    Events.all(function(data, error){
+        $scope.events = data;
+    });
 })
 
 .controller('EventDetailCtrl', function($scope, $stateParams, Events) {
-  $scope.event = Events.get($stateParams.eventId);
+    $scope.event = Events.get($stateParams.eventId);
 })

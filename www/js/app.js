@@ -7,6 +7,8 @@
 // 'eedankarya.controllers' is found in controllers.js
 angular.module('eedankarya', ['ionic', 'eedankarya.controllers', 'eedankarya.services', 'eedankarya.directives'])
 
+.constant('AppType', 'mobile')
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
