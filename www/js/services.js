@@ -1,7 +1,7 @@
 angular.module('eedankarya.services', [])
 
 .factory('Events', ['$http', 'AppType', function($http, AppType) {
-  var local_json = '/events.json';
+  var local_json = 'events.json';
   var remote_json = 'https://raw.githubusercontent.com/ekaputra07/eedan-karya/master/www/events.json';
 
   var events_version = 1;

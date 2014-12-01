@@ -7,7 +7,7 @@
 // 'eedankarya.controllers' is found in controllers.js
 angular.module('eedankarya', ['ionic', 'eedankarya.controllers', 'eedankarya.services', 'eedankarya.directives'])
 
-.constant('AppType', 'mobile')
+.constant('AppType', 'browser')
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
